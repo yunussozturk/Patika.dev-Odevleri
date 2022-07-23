@@ -1,0 +1,260 @@
+/* ------------------------Header'da ki kutular ayarlandı --------------------------*/
+.y 
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    
+}
+
+.card
+{
+    width: 40%;
+    height: 80px;
+    float: left;
+    text-decoration: none;
+    
+}
+
+.card1
+{
+    width: 20%;
+    height: 80px;
+    float: right;   
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/* 'kareler' resminin boyutu */
+.kareler
+{
+    width: 18px;
+}
+
+/* URL yönlendirenlerin alt çizgisini kaldır */
+a
+{
+    text-decoration: none;
+}
+
+/* sign in kutusu ayarlandı */
+.signin
+{
+    color: #fff;
+    border: 8px solid #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    cursor: default;
+   
+}
+
+/* Google logosu boyut ve konumu ayarlandı */
+.logo
+{
+    margin-top: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+/*********************************************************************************************/
+/* arama çubuğu */
+
+.search-area
+{
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;                         /*öğelere esneklik verebiliriz*/
+    border: 1px solid #dfe1e5;
+    box-shadow: none;                      /*öğelere gölgelendirme sağlar*/
+    z-index: 3;                            /*Görüntülenme sırasını verir (position kullanımından sonra kullanılır)*/
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 582px;
+}
+
+.search-area:hover                         /* hover ile üzerine gelince renk değiştirir (yani gölge yapacağız) */
+{
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+
+
+.search
+{
+    flex: 1;                                
+    display: flex;                          /* içindeki elemanların kolayca yerleşmesini sağlar*/
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+.search-img
+{
+    display: flex;
+    align-items: center;                    /* ögeleri dikeyde ve yatayda hizalıyor*/
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.search-img span
+{
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;                  
+    fill: currentColor;
+    line-height: 24px;                      /* yazı tipinin kalınlığı*/
+    position: relative;
+}
+
+.metin1
+{
+    color: transparent;
+    flex: 100%;
+    white-space: pre;                          /*yazı yazdıkça sağa devam etsin*/
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    
+}
+
+.metin2
+{
+    
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;                      /*kelime uzayınca satır başına atar*/
+    outline: none;                              /* forma tıklayınca kutu oluşmasını engeller*/
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;  /*hangi ögeye dokunulduğunu gösterir*/
+    margin-top: -39px;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    width: 500px;
+    
+}
+
+.sagayasla
+{
+    padding-left:  490px;
+    padding-top: -5px;
+}
+
+
+/*********************************************************************************************************/
+
+.z
+{
+    
+    width: 20%;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buton1
+{
+    text-align: center;
+    width: 45%;
+    height: 30px;
+    float: left;
+}
+
+.buton2
+{
+    text-align: center;
+    width: 45%;
+    height: 30px;
+    float: right;
+}
+
+button
+{
+    height: 30px;
+    width: 130px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+button:hover                         /* hover ile üzerine gelince renk değiştirir (yani gölge yapacağız) */
+{
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+
+/*******************************************************************************************************/
+
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+.t
+{
+    width: 100%;
+    height: 40px;
+    margin-top: 235px;
+    background-color: #e7e2e2;
+    font-size: 18px;
+    color: #a18f8f;
+    font-style: initial;
+    text-align: center;
+}
+
+.k1
+{    
+    width: 10%;
+    float: left;
+    height: 30px;
+    padding-top: 10px;
+    margin-right: -40px;
+    
+    
+}
+.k2
+{  
+    width: 10%;
+    float: left;
+    height: 30px;
+    padding-top: 10px;
+    margin-right: -20px;
+       
+}
+.k3
+{
+    width: 10%;
+    float: left;
+    padding-top: 10px;    
+}
+.k4
+{
+    width: 7%;
+    float: right;
+    height: 30px;   
+    padding-top: 10px;
+    margin-left: -20px;    
+}
+.k5
+{
+    width: 7%;
+    float: right;
+    height: 30px;    
+    padding-top: 10px;
+    margin-left: -20px;   
+}
+.k6
+{
+    width: 7%;
+    float: right;
+    height: 30px;  
+    padding-top: 10px;
+}

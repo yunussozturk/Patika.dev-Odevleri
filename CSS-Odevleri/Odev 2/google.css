@@ -1,0 +1,53 @@
+.box
+{
+    width: 1350px;
+    background-color: rgb(235, 229, 229);
+    font-style: initial;
+    text-align: center;
+}
+
+.y
+{
+    margin-top: 2px;
+    width: 1350px;
+    height: 30px;
+}
+
+.card
+{
+    width: 39.75%;
+    height: 80px;
+    float: left;
+    background-color: aquamarine;
+    text-align: center;
+    margin-right: 0.25%;
+}
+
+.card1
+{
+    width: 20%;
+    height: 80px;
+    float: left;
+    background-color: rgb(102, 231, 188);
+    text-align: center;
+    margin-right: 0.25%;
+}
+
+.card2
+{
+    width: 39.75%;
+    height: 80px;
+    float: left;
+    background-color: rgb(70, 209, 163);
+    text-align: center;
+}
+
+.k
+{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.l
+{
+    padding-top: 5px;
+}

@@ -1,0 +1,67 @@
+<!--bu ödev index.html ödevine benzerdir. Yeni öğrenilen konular kullanılmıştır-->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_Odev_2</title>
+    <style>
+        .renk1
+        {
+            color:red;
+        }
+        .yazitipi1
+        {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .sagayasla
+        {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <!--sayfanın en altına gitmek için yaptım ve sağa yasladım-->
+    <p class="sagayasla"><a href="#footer">en alta git</a></p>
+    <h1>Yunus ÖZTÜRK</h1>
+    <h2>Hakkımda</h2>
+    <p>
+        Merhaba, ben Yunus Öztürk. Yalova'da yaşıyorum. Elektrik-elektronik mühendisiyim. Frontend Bootcamp
+        Hazırlık Programına çalışıyorum.
+    </p>
+    <h2>İlgi Alanlarım</h2>
+    <!--burada dizi ve filmleri sıralı şekilde yazdım. bazılarını yeni sekmede başka linklere yönlendirdim-->
+    <ol>
+        <b><li>Diziler</li></b>
+        <!--sırasız liste işaretlerini style ile kare yaptım. link renklerini kırmızı yaptım. bunun için yukarıda style belirledim-->
+        <ul style="list-style-type:square">
+            <li>Breaking Bad (<a class="renk1" href="https://www.imdb.com/title/tt0903747/ratings/?ref_=tt_ov_rt" target="_blank">IMDB linki</a>)</li>
+            <li>La Casa De Papel</li>
+            <li>Prison Break</li>
+        </ul>
+        <b><li>Filmler</li></b>
+        <ul style="list-style-type:square">
+            <li>Yüzüklerin Efendisi (<a class="renk1" href="https://www.imdb.com/title/tt0120737/ratings/?ref_=tt_ov_rt" target="_blank">IMDB linki</a>)</li>
+            <li>Harry Potter</li>
+        </ul>
+        <b><li>Kitaplar</li></b>
+        <ul style="list-style-type:square">
+            <li>Dune (Kitabı okumak için <a class="renk1" href="https://www.goodreads.com/book/show/44767458-dune?from_search=true&from_srp=true&qid=LLHRqiX3j7&rank=1" target="_blank"><b>tıklayın</b></a>)</li>
+        </ul>
+    </ol>
+    <h2>Sevdiğim Diziler</h2>
+    <!--yazı tipini değiştirdim ve kalınlaştırdım-->
+    <p class="yazitipi1"><strong>Breaking Bad</strong></p>
+    <!--dizinin kapak resmini ekledim. cursor resmin üstüne gelince breaking bad yazması için title yazdım.
+         Her oyuncunun üstüne tıklayınca kim olduğunu gösteren linke gitmesi için usemap tanımladım. sonra da kare şekilde koordinatlarını belirledim-->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOhR-IRztdAdW_zxO5PohToSIHwyQajpRZiw&usqp=CAU" title="Breaking Bad Oyuncuları" width="180" heigh="150" alt="Breaking Bad Oyuncuları" usemap="#workmap" />
+    <map name="workmap">
+        <area shape="rect" coords="1,1,80,150" alt="Aaron_Paul" href="https://tr.wikipedia.org/wiki/Aaron_Paul" target="_blank">
+        <area shape="rect" coords="81,1,200,250" alt="Bryan Cranston" href="https://tr.wikipedia.org/wiki/Bryan_Cranston" target="_blank">
+    </map>
+    <p>oyuncuların üzerine tıklayarak kim olduklarını görebilirsiniz</p>
+    <!--tıklayınız yazan yeren dizinin fragmanını ekledim-->
+    <p id="footer">Breaking bad dizisi fragmanı için <a href="https://www.youtube.com/embed/HhesaQXLuRY" target="_blank"><b>tıklayınız</b></a>.</p>
+</body>
+</html>

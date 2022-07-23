@@ -1,0 +1,13 @@
+/* css dosyasını html dosyasında kullanmak için h2 ve h3'ün özelliklerini buraya yazdım*/
+h2
+    {
+        text-align: center;
+        color: purple;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+h3
+    {
+        color: brown;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }

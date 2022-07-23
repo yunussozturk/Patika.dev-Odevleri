@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        HTML_ödev_1
+    </title>
+    <!--Burada arka plan rengini, başlık ve paragrafların bazı yazı tipi, rengini ve konumunu ayarladım-->
+    <style>
+        body
+        {
+            background-color: lightblue;
+        }
+        h1
+        {
+            color: brown;
+            text-align: center;
+        }
+        h3
+        {
+            position: relative;
+            right: -20px;
+        }
+        p
+        {
+            font-family:'Times New Roman', Times, serif;
+        }
+        button
+        {
+            background-color:blue;
+        }
+        .bas
+        {
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <h1>YUNUS ÖZTÜRK</h1>
+    <h2>Hakkımda</h2>
+        <p>Merhaba, ben Yunus Öztürk. Yalova'da yaşıyorum. Elektrik-elektronik mühendisiyim. Frontend Bootcamp
+        Hazırlık Programına çalışıyorum.
+        </p>
+        <!--burada başka siteye yönlendirdim. Bunun için buton koydum-->
+        <p>Patika.dev profilim için <a href="https://app.patika.dev/yunusozturk"><button><b>tıklayın</b></button></a>.
+        </p>
+    <h2>Eğitim Bilgileri</h2>
+        <p><strong>2008-2012 :</strong> Yalova Şehit Osman Altınkuyu Anadolu Lisesi</p>
+        <p><strong>2013-2019 :</strong> Sakarya Üniversitesi Elektrik-elektronik Mühendisliği Bölümü</p>
+    <h2>Sevdiğim Dizi ve Filmler</h2>
+    <h3>Diziler</h3>
+        <!--burada sevdiğim dizi ve filmleri sırasız sıraladım-->
+        <ul>
+            <li>Breaking Bad</li>
+            <li>La Casa De Papel</li>
+            <li>Prison Break</li>
+        </ul>
+    <h3>Filmler</h3>
+        <ul>
+            <li>Yüzüklerin Efendisi</li>
+            <li>Harry Potter</li>
+        </ul>
+    <h2>Tuttuğum takım</h2>
+        <!--burada tuttuğum takımın ambleminin resmini koydum ve yeniden boyutlandırdım.-->
+        <img src="https://pbs.twimg.com/profile_images/1527392440637865986/nlXCtnll_400x400.jpg" width="60" heigh="50" alt="Galatasaray">
+        <p>Galatasaray</p>
+    <!--bu başlığı kırmızı yapmak istedim bu yüzden class kullandım ve youtube'dan video ekledim ve boyutunu değiştirdim-->
+    <h2 class="bas">Front-End Yol Haritası</h2>
+        <iframe width="242" height="137" src="https://www.youtube.com/embed/NQthEhNyToY" title="Front-End Yol Haritası(roadmap.sh) #0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
